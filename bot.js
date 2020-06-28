@@ -19,13 +19,5 @@ if(message.content.startsWith(prefix + 'say')) {
 }
 });
 
-@client.event
-async def on_member_join(member):
-        channel = member.guild.system_channel
-        if channel is not None:
-            await channel.send('Приветствую, {0.mention}.'.format(member));
-}
-});
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
