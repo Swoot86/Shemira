@@ -1,2 +1,2 @@
-# Shemira
-Bot using Shemira, 24/7!
+# super-super-heroku-bot
+Bot using heroku, 24/7!
