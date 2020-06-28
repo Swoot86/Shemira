@@ -20,7 +20,7 @@ if(message.content.startsWith(prefix + 'say')) {
 });
     
 client.on('guildMemberAdd', member => {
-    member.guild.channels.get('726473841508876348').send(' **' + member.user + '**, приветствую тебя, Воин! \n Прочти правила сервера, чтобы не налажать: <#726489260592595059>.');
+    member.guild.channels.get('726516853643673722').send(' **' + member.user + '**, приветствую тебя, Воин! \n Прочти правила сервера, чтобы не налажать: <#726489260592595059>.');
 
 });
 
