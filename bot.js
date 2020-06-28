@@ -6,6 +6,8 @@ client.on('ready', () => {
 });
 
 var prefix = '!'
+client.on('message', message => {
+    if(message.author === client.user) return;
 if(message.content.startsWith(prefix + 'say')) {
   if(message.author.id !== '251033485551075328') return
     const args = message.content.slice(prefix.length).split('say');
