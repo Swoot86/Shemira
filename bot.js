@@ -13,6 +13,7 @@ if(message.content.startsWith(prefix + 'say')) {
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
   .catch(console.error);
              message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
+}
 });
 
 // THIS  MUST  BE  THIS  WAY
