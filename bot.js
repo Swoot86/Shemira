@@ -3,8 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-bot.on('guildMemberAdd', member => {
-      message.channel..send("Добро пожаловать на сервер!");
+
 });
 
 var prefix = '!'
