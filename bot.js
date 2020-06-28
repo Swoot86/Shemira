@@ -4,6 +4,9 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('I am ready!');
 
+client.on('guildMemberAdd', member => {
+    member.guild.channels.get('726473841508876348').send('<:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> **' + member.user + '**, приветствую тебя, Воин! <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> \n Прочти правила сервера, чтобы не налажать: <#726508918188015626>.');
+
 });
 
 var prefix = '!'
@@ -17,11 +20,6 @@ if(message.content.startsWith(prefix + 'say')) {
   .catch(console.error);
              message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
 }
-});
-
-client.on('guildMemberAdd', member => {
-    member.guild.channels.get('726473841508876348').send('<:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> **' + member.user + '**, приветствую тебя, Воин! <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> \n Прочти правила сервера, чтобы не налажать: <#726508918188015626>.');
-
 });
 
 // THIS  MUST  BE  THIS  WAY
