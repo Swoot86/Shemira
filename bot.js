@@ -5,10 +5,14 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
+var prefix = '!'
+if(message.content.startsWith(prefix + 'say')) {
+  if(message.author.id !== '251033485551075328') return
+    const args = message.content.slice(prefix.length).split('say');
+      message.delete()
+  .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+  .catch(console.error);
+             message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
 });
 
 // THIS  MUST  BE  THIS  WAY
