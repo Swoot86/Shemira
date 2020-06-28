@@ -19,5 +19,9 @@ if(message.content.startsWith(prefix + 'say')) {
 }
 });
 
+bot.on('guildMemberAdd', member => {
+      message.channel..send("Добро пожаловать на сервер!");
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
