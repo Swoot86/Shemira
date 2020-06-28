@@ -19,7 +19,8 @@ if(message.content.startsWith(prefix + 'say')) {
 }
 });
 
-client.on('guildMemberAdd', member => {member.guild.channels.get('726473841508876348').send('<:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> **' + member.user + '**, приветствую тебя, Воин! <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> \n Прочти правила сервера, чтобы не налажать: <#726508918188015626>.');
+client.on('guildMemberAdd', member => {
+    member.guild.channels.get('726473841508876348').send('<:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> **' + member.user + '**, приветствую тебя, Воин! <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> \n Прочти правила сервера, чтобы не налажать: <#726508918188015626>.');
 
 });
 
