@@ -17,6 +17,12 @@ if(message.content.startsWith(prefix + 'say')) {
   .catch(console.error);
              message.channel.sendMessage(message.content.slice(prefix.length).split('say'));
 }
+if(message.content.startsWith(prefix + '1')) {
+          message.delete()
+    .then(msg => console.log(`Deleted message from ${msg.author.username}`))
+    .catch(console.error);
+  message.channel.send({files: ["./Win hero/Human/Aksel.png"]})
+}     
 });
     
 client.on('guildMemberAdd', member => {
