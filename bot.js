@@ -21,7 +21,7 @@ if(message.content.startsWith(prefix + '1')) {
           message.delete()
     .then(msg => console.log(`Deleted message from ${msg.author.username}`))
     .catch(console.error);
-  message.channel.send({files: ["./Win hero/Human/Aksel.png"]})
+  message.channel.send({files: ["./D4g1oV1WAAAKS7u.png"]})
 }     
 });
     
