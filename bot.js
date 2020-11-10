@@ -5,7 +5,9 @@ client.on('ready', () => {
     console.log('I am ready!');
 
 });
-
+client.on('guildMemberAdd', member => {
+   member.guild.channels.get('775638198616719363').send('' + member.user + '**, приветствую тебя, Воин! ');
+ });
 var prefix = '!'
 client.on('message', message => {
     if(message.author === client.user) return;
@@ -24,9 +26,7 @@ if(message.content.startsWith(prefix + '1')) {
   message.channel.send({files: ["./6Dx0lgr0gws.png"]})
 }     
 });
-client.on('guildMemberAdd', member => {
-   member.guild.channels.get('775638198616719363').send('' + member.user + '**, приветствую тебя, Воин! ');
- });
+
 //client.on('guildMemberAdd', member => {
     //member.guild.channels.get('775638198616719363').send('<:10:775740707079847976> <:10:775740707079847976> <:10:775740707079847976> <:10:775740707079847976> <:10:775740707079847976> **' + member.user + '**, приветствую тебя, Импостер! <:91:775740707079847976> <:91:775740707079847976> <:91:775740707079847976> <:91:775740707079847976> <:91:775740707079847976> \n Прочти правила сервера, чтобы не налажать: <#775669660062056468>.');                                      
 //});
