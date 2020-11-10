@@ -7,12 +7,12 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 client.on('guildMemberAdd', member => {
-   member.guild.channels.get('775638198616719363').send(' ' + member.user + ', приветствую тебя, Черт!  \n Прочти правила сервера, чтобы не налажать: .');
+   member.guild.channels.get('775638198616719363').send('**' + member.user + '**, приветствую тебя, Черт!  \n Прочти правила сервера, чтобы не налажать.');
  });
 
 
 client.on('guildMemberRemove', member => {
-   member.guild.channels.get('775638198616719363').send('' + member.user + '**, беги! Жалкий трус!');
+   member.guild.channels.get('775638198616719363').send('**' + member.user + '**, беги! Жалкий трус!');
    // channel-id - Надо вводить ид канала куда будет писаться это сообщение
 });
 
