@@ -25,11 +25,6 @@ var prefix = '!'
    //Произвольные сообщения от имени Валерии
 	 if(message.content.startsWith(prefix + 'say')) {
   if(message.author.id == '775787284070662164' //@Defo
- // || message.author.id == '435498881040777231' //@White Rabbit#4620
-  //|| message.author.id !== '331129112598937600' //@cq-w9gfo#9491 
- // || message.author.id !== '523946123606491151' //@ivan-baraban#2410
- // || message.author.id !== '253263899556708353' //@StereoType#8186
-  //|| message.author.id !== '440835676586377227') { //@Pakicetus#5323 
     const args = message.content.slice(prefix.length).split('say');
 	  message.delete()
   .then(msg => console.log(`Deleted message from ${msg.author.username}`))
