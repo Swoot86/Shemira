@@ -35,6 +35,5 @@ var prefix = '!'
            return;
          }
    }
-      client.on
 
 client.login(process.env.BOT_TOKEN);
