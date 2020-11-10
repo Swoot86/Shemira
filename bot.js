@@ -7,12 +7,12 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 client.on('guildMemberAdd', member => {
-   member.guild.channels.get('775638198616719363').send('<:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591> **' + member.user + '**, приветствую тебя, Черт! <:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591> \n Прочти правила сервера, чтобы не налажать: <#464435496773484554>.');
+   member.guild.channels.get('775638198616719363').send(' ' + member.user + ', приветствую тебя, Черт!  \n Прочти правила сервера, чтобы не налажать: .');
  });
 
 
 client.on('guildMemberRemove', member => {
-   member.guild.channels.get('775638198616719363').send('<:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778> **' + member.user + '**, беги! Жалкий трус! <:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778>');
+   member.guild.channels.get('775638198616719363').send('' + member.user + '**, беги! Жалкий трус!');
    // channel-id - Надо вводить ид канала куда будет писаться это сообщение
 });
 
