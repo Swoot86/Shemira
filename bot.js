@@ -13,12 +13,12 @@ client.on('guildMemberUpdate', (oldMember, newMember) => {
  });
 
 client.on('guildMemberAdd', member => {
-    member.guild.channels.get('775719425264844851').send('<:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> **' + member.user + '**, Приветствую тебя, Импостер! <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> \n Прочти правила сервера, чтобы не налажать: <#775669660062056468>.');
+    member.guild.channels.get('775638198616719363').send('<:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> **' + member.user + '**, Приветствую тебя, Импостер! <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> \n Прочти правила сервера, чтобы не налажать: <#775669660062056468>.');
     });
 
 
 client.on('guildMemberRemove', member => {
-   member.guild.channels.get('775719425264844851').send('<:report:776200199928152106><:report:776200199928152106><:report:776200199928152106><:report:776200199928152106><:report:776200199928152106> ' + member.user + ', беги! Жалкий трус! <:report:776200199928152106><:report:776200199928152106><:report:776200199928152106><:report:776200199928152106><:report:776200199928152106>');
+   member.guild.channels.get('775638198616719363').send('<:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062> ' + member.user + ', беги! Жалкий трус! <:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062>');
 });
 
 var prefix = '!'
