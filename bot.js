@@ -7,15 +7,8 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 client.on('guildMemberAdd', member => {
-   member.guild.channels.get('775638198616719363').send('**' + member.user + '**, приветствую тебя, Черт!  \n Прочти правила сервера, чтобы не налажать.');
+   member.guild.channels.get('775638198616719363').send(':Prisoedinenie::Prisoedinenie::Prisoedinenie::Prisoedinenie::Prisoedinenie: ' + member.user + ', приветствую тебя, Воин! :Prisoedinenie::Prisoedinenie::Prisoedinenie::Prisoedinenie::Prisoedinenie: \n Прочти правила сервера, чтобы не налажать: <#464435496773484554>.');
  });
-
-
-client.on('guildMemberRemove', member => {
-   member.guild.channels.get('726516853643673722').send('<:11:775741101206274058><:11:775741101206274058><:11:775741101206274058><:11:775741101206274058><:11:775741101206274058> **' + member.user + '**, беги! Жалкий трус! <:11:775741101206274058><:11:775741101206274058><:11:775741101206274058><:11:775741101206274058><:11:775741101206274058>');
-   // channel-id - Надо вводить ид канала куда будет писаться это сообщение
-});
-
 var prefix = '!'
 
  client.on('message', message => {
