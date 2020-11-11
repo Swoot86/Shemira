@@ -13,12 +13,12 @@ client.on('guildMemberUpdate', (oldMember, newMember) => {
  });
 
 client.on('guildMemberAdd', member => {
-   member.guild.channels.get('775638198616719363').send('<:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591> ' + member.user + ', приветствую тебя, Воин! <:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591> \n Прочти правила сервера, чтобы не налажать: <#464435496773484554>.');
+   member.guild.channels.get('775719425264844851').send('<:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591> ' + member.user + ', приветствую тебя, Воин! <:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591><:Prisoedinenie:572126670929133591> \n Прочти правила сервера, чтобы не налажать: <#464435496773484554>.');
  });
 
 
 client.on('guildMemberRemove', member => {
-   member.guild.channels.get('775638198616719363').send('<:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778> ' + member.user + ', беги! Жалкий трус! <:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778>');
+   member.guild.channels.get('775719425264844851').send('<:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778> ' + member.user + ', беги! Жалкий трус! <:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778>');
 });
 
 var prefix = '!'
