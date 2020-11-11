@@ -7,7 +7,7 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 client.on('guildMemberAdd', member => {
-   member.guild.channels.get('775638198616719363').send(':Prisoedinenie::Prisoedinenie::Prisoedinenie::Prisoedinenie::Prisoedinenie: ' + member.user + ', приветствую тебя, Воин! :Prisoedinenie::Prisoedinenie::Prisoedinenie::Prisoedinenie::Prisoedinenie: \n Прочти правила сервера, чтобы не налажать: <#464435496773484554>.');
+   member.guild.channels.get('775638198616719363').send('Имперор клоун');
  });
 var prefix = '!'
 
