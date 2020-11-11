@@ -13,12 +13,12 @@ client.on('guildMemberUpdate', (oldMember, newMember) => {
  });
 
 client.on('guildMemberAdd', member => {
-    member.guild.channels.get('775638198616719363').send('<:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> **' + member.user + '**, Welcome warrior! <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> <:krylatyjzashhitnik01:726515001946538065> \n Read the guild rules: <#726793029284790282>.');
+    member.guild.channels.get('775638198616719363').send('<:10:775740707079847976> <:10:775740707079847976> <:10:775740707079847976> <:10:775740707079847976> <:10:775740707079847976> **' + member.user + '**, Приветствую тебя, Импостер! <:10:775740707079847976> <:10:775740707079847976> <:10:775740707079847976> <:10:775740707079847976> <:10:775740707079847976> \n Прочти правила сервера, чтобы не налажать: <#775669660062056468>.');
     });
 
 
 client.on('guildMemberRemove', member => {
-   member.guild.channels.get('775638198616719363').send('<:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778> ' + member.user + ', беги! Жалкий трус! <:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778><:Nadzor:460625006045429778>');
+   member.guild.channels.get('775638198616719363').send('<:11:775741101206274058><:11:775741101206274058><:11:775741101206274058><:11:775741101206274058><:11:775741101206274058> ' + member.user + ', беги! Жалкий трус! <:11:775741101206274058><:11:775741101206274058><:11:775741101206274058><:11:775741101206274058><:11:775741101206274058>');
 });
 
 var prefix = '!'
@@ -29,7 +29,7 @@ var prefix = '!'
 
    //Произвольные сообщения от имени Валерии
 	 if(message.content.startsWith(prefix + 'say')) {
-  if(message.author.id == '386834372466049024' //@NordTort#9714
+  if(message.author.id == '775787284070662164' //@Defo
   || message.author.id == '435498881040777231' //@White Rabbit#4620
   || message.author.id !== '331129112598937600' //@cq-w9gfo#9491 
   || message.author.id !== '523946123606491151' //@ivan-baraban#2410
