@@ -48,7 +48,7 @@ var prefix = '!'
    //Ставки на 1х1
    if(message.content.startsWith(prefix + 'duel')) {
   if(message.author.id == '386834372466049024' //@NordTort#9714
-  || message.author.id == '435498881040777231' //@White Rabbit#4620
+ // || message.author.id == '435498881040777231' //@White Rabbit#4620
   || message.author.id !== '331129112598937600' //@cq-w9gfo#9491 
   || message.author.id !== '523946123606491151' //@ivan-baraban#2410
   || message.author.id !== '253263899556708353' //@StereoType#8186
