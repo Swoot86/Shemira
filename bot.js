@@ -126,7 +126,7 @@ var prefix = '!'
           message.delete()
     .then(msg => console.log(`Deleted message from ${msg.author.username}`))
     .catch(console.error);
-  message.channel.send({files: ["./Win hero/Human/Aksel.png"]})
+  message.channel.send({files: ["./1604936063_1601919152_bs4me7z273r51.gif"]})
   } 
       //Эллайна
   if(message.content.startsWith(prefix + 'allaina')) {
