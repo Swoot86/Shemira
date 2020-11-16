@@ -18,7 +18,7 @@ client.on('guildMemberAdd', member => {
 
 
 client.on('guildMemberRemove', member => {
-   member.guild.channels.get('775638198616719363').send('<:verif_red:777485139956989952><:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062> ' + member.user + ', беги! Жалкий трус! <:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062>');
+   member.guild.channels.get('775638198616719363').send('<:15:777918338298544160><:15:777918338298544160><:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062> ' + member.user + ', беги! Жалкий трус! <:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062><:warning:776206121311404062>');
 });
 
 var prefix = '!'
