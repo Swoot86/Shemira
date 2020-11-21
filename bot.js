@@ -13,7 +13,7 @@ client.on('guildMemberUpdate', (oldMember, newMember) => {
  });
 
 client.on('guildMemberAdd', member => {
-    member.guild.channels.get('775719425264844851').send('<:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> **' + member.user + '**, Приветствую тебя, Импостер! <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> \n Прочти правила сервера, чтобы не налажать: <#775669660062056468>.');
+    member.guild.channels.get('779643907352559616').send('<:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> **' + member.user + '**, Приветствую тебя, Импостер! <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> <:radioactive:776196737551302666> \n Прочти правила сервера, чтобы не налажать: <#775669660062056468>.');
     });
 
 
