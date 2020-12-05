@@ -133,7 +133,7 @@ var prefix = '!'
           message.delete()
     .then(msg => console.log(`Deleted message from ${msg.author.username}`))
     .catch(console.error);
-  message.channel.send({files: ["./Win hero/Human/Allaina.png"]})
+  message.channel.send({files: ["./дес дил.jpg"]})
   } 
       //Дугал   
   if(message.content.startsWith(prefix + 'dugal')) { 
