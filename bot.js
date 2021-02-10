@@ -18,7 +18,7 @@ client.on('guildMemberAdd', member => {
 
 
 client.on('guildMemberRemove', member => {
-   member.guild.channels.get('779630773653209089').send(' ' + member.user + ', беги! Жалкий трус! ');
+   member.guild.channels.get('779643907352559616').send(' ' + member.user + ', беги! Жалкий трус! ');
 });
 
 var prefix = '!'
